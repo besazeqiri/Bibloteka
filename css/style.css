@@ -1,0 +1,194 @@
+*{
+  font-family: sans-serif;
+  background: #FAF0E6;
+}
+ 
+/*indexfile*/
+.container {
+  width: 100%;
+  background-color: #FAF0E6;
+}
+
+.container  #menyte {
+  float: right;
+  margin-top:4px;
+}
+.container  #menyte ul li {
+  display: inline;
+  font-size: 15px;
+  padding: 10px;
+}
+.container  #menyte ul li a {
+  text-decoration: none;
+  color:#b74d6f;
+}
+.container  #menyte ul li a.active{
+  color: #800000;
+}
+.container  #menyte ul li a:hover {
+  color: #DC143C;
+}
+
+
+/*slider*/
+#slider{
+  width: 100%;
+}
+
+.page #slide-bar #img {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/11.jpg);
+  background-position: bottom right;
+  animation: slider 10s infinite;
+  margin-top: 1px;
+}
+@keyframes slider {
+  0% {
+    background-image: url(../images/11.jpg);
+  }
+  25% {
+    background-image: url(../images/13.jpg);
+  }
+  50% {
+    background-image: url(../images/14.jpg);
+  }
+  75% {
+    background-image: url(../images/15.jpg);
+  }
+}
+
+/*index Librat*/
+.page{
+  width: 100%;
+}
+
+.page #content h1{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.page #content .item1{
+    width: 150px;
+    height: 200px;
+    border:1px solid #ef9dac;
+    font-size: 10px;
+    border-radius: 5px;
+    display: inline-block; 
+    margin: 4px auto;
+ }
+
+ #content .item1 img,h2,p{
+  padding: 2px;
+ }
+
+ #content .item1 h2,p{
+  margin-top:6px;
+ }
+
+.page #box .b1{
+  
+    width: 30%;
+    height: 150px;
+    font-size: 14px;
+    display: inline-block; 
+    margin-top: 50px;
+    margin-right: 30px;
+ }
+ .page #box{    
+  background-color: #FAF0E6 !important;
+  width: 90%;
+  margin: 20px 150px;
+ }
+
+/*footer*/
+ .permbajtja .footer{ 
+    width: 100%;
+    height: 60px;
+}
+.footer p{
+  font-size: 14px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #CD5C5C;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #DB7093;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+  margin: 12px 0;
+  cursor: pointer;
+}
+ .shto{
+  background-color: #CD5C5C;
+  border: 1px solid #DB7093;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  float: right;
+  }
+
+.shto a{
+  color: black;
+  text-decoration: none;
+  background-color: #CD5C5C;
+}
+
+/*tabela*/
+
+#members{
+    float: left;
+    margin-top: 20px;
+    width:100%;
+    empty-cells: show; 
+    border-collapse:collapse;
+}
+
+#members td, #members th{
+    font-size:13px;
+    border:1px solid #ef9dac; 
+    padding:8px 5px 2px;
+}
+#members th 
+{
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color: #CD5C5C;
+    color:black;
+}
+
+/*forma*/
+
+.forma{
+     width: 90%;
+     margin :0 auto;
+ }
+.forma  select, input[type="text"], input[type="email"],input[type="date"]{
+       border: 1px solid pink;
+       width: 30%;
+       display: inline-block;
+       height: 50px;
+      margin: 5px;
+      padding: 1px;
+      font-size: 16px;   
+
+}
+.forma select {
+  width: 31%;
+  height: 52px;
+}
+
+.forma label{
+       width: 30%;
+       display: inline-block;
+       height: 17px;
+       margin: 5px;
+       padding: 2px;
+       font-size: 16px;           
+}
